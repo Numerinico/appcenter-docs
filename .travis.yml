@@ -1,7 +1,7 @@
 language: C
 cache: pip
 install:
-    - sudo -H pip install sphinx
-    - sudo -H pip install sphinx_rtd_theme
-    - sudo -H pip install rst2pdf
+    - pip install --user sphinx
+    - pip install --user sphinx_rtd_theme
+    - pip install --user rst2pdf
 script: make html
