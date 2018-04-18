@@ -1,4 +1,6 @@
 language: C
 install:
-    - sudo pip install tox-travis
+    - pip install sphinx
+    - pip install sphinx_rtd_theme
+    - pip install rst2pdf
 script: make html
