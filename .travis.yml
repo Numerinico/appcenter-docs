@@ -1,2 +1,4 @@
 language: C
+install:
+    - pip install tox-travis
 script: make html
