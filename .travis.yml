@@ -1,5 +1,4 @@
 language: C
-cache: pip
 install:
     - sudo pip install tox-travis
 script: make html
